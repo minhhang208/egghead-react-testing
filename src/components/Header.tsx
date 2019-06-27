@@ -4,7 +4,7 @@ import React from 'react';
 const Header: React.FC = () => {
   return (
     <div className="Header">
-      This is the header
+      <img src="images/wired-brain-coffee-logo.png" alt="Wired Brains" />
     </div>
   );
 };

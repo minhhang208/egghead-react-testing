@@ -2,7 +2,7 @@ import React from 'react';
 
 function Map() {
     return (<>
-        <img src="default.jpg" />
+        <img src="images/none.png" alt="none"/>
     </>);
 }
 

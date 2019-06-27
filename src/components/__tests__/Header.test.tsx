@@ -1,8 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {shallow, ShallowWrapper} from 'enzyme';
 import Header from '../Header';
  
-it('render without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Header />, div);
+describe("Header", () => {
+    let mountedHeader: ShallowWrapper;
+
+    beforeEach(() => {
+        mountedHeader = shallow(<Header />);
+    });
+
+    it('render without crashing', () => {
+        let mountedHeader = shallow(<Header />); 
+    })
+
+    it('renders a logo', () => {
+        const logoImg = mountedHeader.find('img[src="images/wired-brain-coffee-logo.png"]');        
+        expect(logoImg.length).toBe(1);
+    })
 })
