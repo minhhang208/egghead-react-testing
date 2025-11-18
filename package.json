@@ -41,7 +41,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "expect": "^24.8.0",
-    "mocha": "^6.1.4",
+    "mocha": "^11.7.5",
     "prettier": "^1.18.2",
     "react-addons-test-utils": "^15.6.2",
     "tslint": "^5.17.0",
